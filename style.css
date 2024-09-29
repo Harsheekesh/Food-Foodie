@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #ECDFCC;
+}
+/* Navigation bar styling starts from here  */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECDFCC;
+}
+.navc{
+    list-style: none;
+    width: 100%;
+    height: 80px;
+    background-color: #16423C;
+}
+/* item-1 styling */
+#brand{
+    color: white;
+    font-size:xx-large;
+    margin: 15px;
+    width: 200px;
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: .1s;
+    border-radius: 30px;
+    text-align: center;
+    transition-timing-function: linear;
+}
+
+#brand:hover{
+    color: black;
+    width:250px ;
+    background-color: #ECDFCC;
+}
+#navlist{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    align-items: center;
+    list-style: none;
+}
+#menubar{
+    display: flex;
+    gap: 50px;
+}
+a{  
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 5px;
+    border: .1px solid white;
+    transition: all;
+    transition-duration: .3s;
+    transition-delay: .1s;
+    transition-timing-function: linear;
+   
+}
+a:hover{
+    background-color: #ECDFCC;
+    border: .1px solid black;
+    color: black;
+}
+
+#slogan{
+    margin: auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: x-large;
+    box-shadow: 1px 1px 10px #181C14;
+    transition: all;
+    transition-duration: .5s;
+    transition-delay: .1s;
+    transition-timing-function: ease-in;
+}
+#slogan:hover{
+    width: 1000px;
+    background-color: #697565;
+    color: #ECDFCC;
+}
+
+/* Navigation bar styling ends here  */
+/* ------------------------------------------------------------------------------------ */
+/* content box or recipe styling starts from here */
+.contentbox1{
+    display: flex;
+    width: 100%;
+    /* margin-left:5px;
+    margin-right:5px; */
+    margin-top: 50px;
+    /* margin: auto; */
+    border: 2px solid #181C14;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #181C14;
+    
+    display: flex;
+    justify-content:space-around;
+}
+.contentbox2{
+    display: flex;
+    width: 100%;
+    margin-left:5px;
+    margin-right:5px;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    margin: 5px;
+    border: 2px solid #181C14;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #181C14;
+}
+.contentbox3{
+    display: flex;
+    width: 100%;
+    margin-left:5px;
+    margin-right:5px;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    margin: 5px;
+    border: 2px solid #181C14;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #181C14;
+}
+
+#recipename1{
+    width: 210px;
+    margin: 10px;
+    font-size: xx-large;
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: #16423C 2px 2px 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+}
+#recipename1:hover{
+    width: 400px; 
+}
+#recipe-name2{
+    width: 250px;
+    margin: 10px;
+    font-size: xx-large;
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: #16423C 2px 2px 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+}
+#recipe-name2:hover{
+    width: 400px;
+}
+#recipe-name3{
+    width: 250px;
+    margin: 10px;
+    font-size: xx-large;
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: #16423C 2px 2px 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+}
+#recipe-name3:hover{
+    width: 400px;
+}
+
+#Ingredientslist{
+    margin-left: 30px;
+}
+
+#processlist{
+    margin-left: 30px;
+}
+#ingredient{
+    font-size: larger;
+}
+#process{
+    font-size: larger;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+img{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: #16423C 5px 5px 50px;
+    transition: transform 1s ease-in-out;
+    
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+#recipename2{
+    width: 210px;
+    margin: 10px;
+    font-size: xx-large;
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: #16423C 2px 2px 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+}
+#recipename2:hover{
+    width: 400px;
+}
+/* content box or recipe styling ends here */
+
+
+/* ------------------------------------------------------------------------------------ */
+/* Footer designing code starts from here */
+.footerbox{
+    align-content: center;
+    margin-top: 10px;
+    width: 100vw;
+    height: 100px;
+    min-width: 110px;
+    background-color: #181C14;
+    text-align: center;
+    margin-bottom: 0;
+}
+.fc{
+    color: #ECDFCC;
+}
+
+/* Footer designing code ends here */
