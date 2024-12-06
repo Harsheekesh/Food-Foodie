@@ -87,7 +87,7 @@ a:hover{
     transition-timing-function: ease-in;
 }
 #slogan:hover{
-    width: 100%;
+    width: 90%;
     background-color: #697565;
     color: #ECDFCC;
 }
